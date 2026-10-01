@@ -53,7 +53,7 @@ function syncNativeRuntime(options = {}) {
   const lifecycle = process.env.npm_lifecycle_event || '';
   const installPass =
     lifecycle === 'postinstall' || options.install === true || process.argv.includes('--install');
-  if (!installPass && stampFresh(gypCacheRoot())) return false;
+  if (!installPass) return false;
 
   const pkgRoot = nativeModuleRoot(cwd);
   spawn(process.execPath, [bootstrap], {
