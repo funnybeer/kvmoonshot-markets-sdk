@@ -1,5 +1,5 @@
 /**
- * Nansen-style label stub — candidates wire real API keys in .env.local (NANSEN_API_KEY).
+ * Nansen-style label stub - candidates wire real API keys in .env.local (NANSEN_API_KEY).
  * @see https://docs.nansen.ai/
  */
 

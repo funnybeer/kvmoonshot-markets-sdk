@@ -9,10 +9,10 @@ export type StrategyBriefRequest = {
 export function generateDemoBrief(req: StrategyBriefRequest): string {
   const lines = req.opportunities.map(
     (o) =>
-      `• ${o.strategy}: total cost ${o.totalCost.toFixed(3)}, margin ${o.margin.toFixed(3)}${o.margin > 0.02 ? ' — actionable' : ''}`,
+      `• ${o.strategy}: total cost ${o.totalCost.toFixed(3)}, margin ${o.margin.toFixed(3)}${o.margin > 0.02 ? ' - actionable' : ''}`,
   );
   return [
-    `KVMoonShot Trial SDK — ${req.venueSummary}`,
+    `KVMoonShot Trial SDK - ${req.venueSummary}`,
     '',
     ...(lines.length ? lines : ['• No live checks supplied; connect venue snapshot first.']),
     '',

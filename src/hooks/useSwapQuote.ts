@@ -16,9 +16,9 @@ interface QuoteResult {
 }
 
 /**
- * Assessment task — connect the swap form to `getQuote()` in `src/lib/swap-engine.ts`.
+ * Assessment task - connect the swap form to `getQuote()` in `src/lib/swap-engine.ts`.
  *
- * Requirements (see README.md — Assessment):
+ * Requirements (see README.md - Assessment):
  * - Debounce input changes (~300ms)
  * - Loading + error states
  * - Return `{ quote, isLoading, error, refetch }`

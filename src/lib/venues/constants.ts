@@ -1,4 +1,4 @@
-/** Venue endpoints — aligned with KVMoonShot internal arb reference implementation. */
+/** Venue endpoints - aligned with KVMoonShot internal arb reference implementation. */
 export const POLYMARKET_GAMMA = 'https://gamma-api.polymarket.com';
 export const POLYMARKET_CLOB = 'https://clob.polymarket.com';
 export const KALSHI_API = 'https://api.elections.kalshi.com';

@@ -1,5 +1,5 @@
 /**
- * Cross-venue arb scanner — Trial SDK reference logic.
+ * Cross-venue arb scanner - Trial SDK reference logic.
  * Production uses @kvmoonshot/kvmswap-native for low-latency book merge.
  */
 

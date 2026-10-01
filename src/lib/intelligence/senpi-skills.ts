@@ -1,5 +1,5 @@
 /**
- * Senpi-style agent skills — optional HTTP bridge when SENPI_API_KEY is set.
+ * Senpi-style agent skills - optional HTTP bridge when SENPI_API_KEY is set.
  * Falls back to structured desk copy for the trial SDK.
  */
 export type SenpiSkillRequest = {

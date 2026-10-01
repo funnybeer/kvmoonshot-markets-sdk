@@ -52,7 +52,7 @@ SENPI_API_KEY=
 NANSEN_API_KEY=
 ```
 
-Without LLM keys, the copilot returns a **structured demo brief** from live arb checks — no raw errors in the UI.
+Without LLM keys, the copilot returns a **structured demo brief** from live arb checks - no raw errors in the UI.
 
 ### Extension ideas
 

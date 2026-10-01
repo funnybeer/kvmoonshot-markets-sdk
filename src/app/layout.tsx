@@ -5,7 +5,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'KVMoonShot Trial SDK | Cross-venue strategy desk',
   description:
-    'Trial SDK — live Polymarket, Kalshi, CEX feeds, arb monitor, OpenAI/Claude copilot, DEX settlement.',
+    'Trial SDK - live Polymarket, Kalshi, CEX feeds, arb monitor, OpenAI/Claude copilot, DEX settlement.',
   keywords: [
     'kvmoonshot',
     'trial sdk',

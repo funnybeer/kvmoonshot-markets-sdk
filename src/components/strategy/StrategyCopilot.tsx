@@ -68,7 +68,7 @@ export function StrategyCopilot({ opportunities, venueSummary }: Props) {
   return (
     <CockpitPanel title="Strategy copilot">
       <p className="text-xs text-zinc-500">
-        OpenAI / Claude / Senpi skills — keys in <code className="text-zinc-400">.env.local</code> (
+        OpenAI / Claude / Senpi skills - keys in <code className="text-zinc-400">.env.local</code> (
         <code className="text-zinc-400">OPENAI_API_KEY</code>, <code className="text-zinc-400">ANTHROPIC_API_KEY</code>,{' '}
         <code className="text-zinc-400">SENPI_API_KEY</code>)
       </p>

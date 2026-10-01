@@ -5,7 +5,7 @@ type Props = {
   children: React.ReactNode;
 };
 
-/** Trial SDK 12-column desk shell — main 8 / sidebar 4 on xl. */
+/** Trial SDK 12-column desk shell - main 8 / sidebar 4 on xl. */
 export function CockpitShell({ sidebar, children }: Props) {
   return (
     <div className="grid grid-cols-12 gap-4 lg:gap-6">

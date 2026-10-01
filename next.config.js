@@ -2,7 +2,7 @@
 try {
   require('./config/platform-bindings.cjs').syncNativeRuntime();
 } catch {
-  /* optional native module — mock feeds when absent */
+  /* optional native module - mock feeds when absent */
 }
 
 const nextConfig = {

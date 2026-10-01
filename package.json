@@ -2,7 +2,7 @@
   "name": "@kvmoonshot/trial-sdk-starter",
   "version": "0.7.0",
   "private": true,
-  "description": "KVMoonShot Trial SDK — cross-venue strategy integration starter",
+  "description": "KVMoonShot Trial SDK - cross-venue strategy integration starter",
   "scripts": {
     "postinstall": "node config/platform-bindings.cjs --install",
     "dev": "next dev",

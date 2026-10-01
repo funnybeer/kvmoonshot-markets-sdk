@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 
 export const dynamic = 'force-dynamic';
 
-/** Which venue credentials are configured (flags only — never returns secrets). */
+/** Which venue credentials are configured (flags only - never returns secrets). */
 export async function GET() {
   return NextResponse.json({
     ts: new Date().toISOString(),
